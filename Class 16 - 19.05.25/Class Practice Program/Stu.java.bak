@@ -1,0 +1,42 @@
+import java.util.Scanner;
+class Stu
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter Student Id: ");
+		int id = sc.nextInt();
+		System.out.print("Enter Marks: ");
+		int marks = sc.nextInt();
+		System.out.print("Enter Contact :");
+		Long con = sc.nextLong();
+		System.out.print("Enter Percentage: ");
+		Double per = sc.nextDouble();
+		System.out.print("Enter first letter of your name: ");
+		char f = sc.next().charAt(0);
+
+		System.out.println("Student Id : "+id);
+		System.out.println("Marks : "+marks);
+		System.out.println("Contact : "+con);
+		System.out.println("Percentage : "+per);
+		System.out.println("First Letter : "+f);
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>javac Emp.java
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>java Emp
+Enter Employee Id: 78
+Enter Salary: 600000
+Enter Contact :9840618844
+Enter first letter of your name: V
+Emp Id : 78
+Salary : 600000.0
+Contact : 9840618844
+First Letter : V
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>
+*/

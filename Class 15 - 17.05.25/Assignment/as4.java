@@ -1,0 +1,18 @@
+class as4
+{
+	public static void main(String[] args) 
+	{
+		int num = 1;
+        String result = (num > 0) ? "Positive Number" : "Negative Number";
+        System.out.println(result);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\17.05.25 - Class 15\Assignment>javac as4.java
+
+D:\QSPIDER\JAVA\17.05.25 - Class 15\Assignment>java as4
+Positive Number
+
+D:\QSPIDER\JAVA\17.05.25 - Class 15\Assignment>
+*/

@@ -1,0 +1,46 @@
+import java.util.Scanner;
+class cl2
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws Exception
+	{
+		System.out.print("Enter Letter:");
+		char a = sc.next().charAt(0);
+
+		switch(a)
+		{
+			case 'A':System.out.println("Vowel");
+			break;
+			case 'E':System.out.println("Vowel");
+			break;
+			case 'I':System.out.println("Vowel");
+			break;
+			case 'O':System.out.println("Vowel");
+			break;
+			case 'U':System.out.println("Vowel");
+			break;
+			//Other Method:
+			case 'a','e','i','o','u':System.out.println("Vowel");
+			break;
+			default:System.out.println("Consonants");
+			break;
+		}
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl2
+Enter Letter:A
+Vowel
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl2
+Enter Letter:e
+Vowel
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl2
+Enter Letter:g
+Consonants
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>
+*/

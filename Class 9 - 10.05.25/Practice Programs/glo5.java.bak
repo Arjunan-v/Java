@@ -1,0 +1,10 @@
+class glo5 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(glo4.rollno);
+		System.out.println(glo4.name);
+		System.out.println(glo4.degree);
+		System.out.println(glo4.passout);
+	}
+}

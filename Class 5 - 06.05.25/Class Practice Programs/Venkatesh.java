@@ -1,0 +1,10 @@
+class Venkatesh 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Venkatesh");
+	}
+}
+/*
+Output:Venkatesh
+*/

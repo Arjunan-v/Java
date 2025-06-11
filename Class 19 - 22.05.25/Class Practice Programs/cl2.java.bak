@@ -1,0 +1,58 @@
+import java.util.Scanner;
+class cl2
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter Number:");
+		int num = sc.nextInt();
+		if (num % 3 == 0 && num%5==0)
+		{
+			System.out.println("FizzBuzz");
+		}
+		else if (num%3 == 0)
+		{
+			System.out.println("Fizz");
+		}
+		else if (num%5 == 0)
+		{
+			System.out.println("Buzz");
+		}
+		else
+			System.out.println("Invalid");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>javac cl1.java
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl1
+1.JAVA
+2.SQL
+3.WEBTECH
+Choose the subject:1
+Tabrez
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl1
+1.JAVA
+2.SQL
+3.WEBTECH
+Choose the subject:2
+Nagaraj
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl1
+1.JAVA
+2.SQL
+3.WEBTECH
+Choose the subject:3
+Pranav
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl1
+1.JAVA
+2.SQL
+3.WEBTECH
+Choose the subject:7
+Invalid Selection
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>
+*/

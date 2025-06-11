@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class cl4
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter starting range:");
+		int s = sc.nextInt();
+		System.out.print("Enter ending range:");
+		int e = sc.nextInt();
+		for (int i=s;i<=e ;i++ )
+		{
+			if (i%2 == 0)
+			{
+				System.out.println(i);
+			}
+			
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>javac cl3.java
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>java cl3
+Enter n:5
+5
+4
+3
+2
+1
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>
+*/

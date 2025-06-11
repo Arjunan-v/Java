@@ -1,0 +1,73 @@
+import java.util.Scanner;
+class as6
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		int id=03;
+		System.out.println("Choose\n1.View Profile\n2.Edit Profile\n3.Delete Profile");
+		int a = sc.nextInt();
+		switch(a)
+		{
+			case 1:
+			{
+				if (id == 0)
+				{
+					System.out.println("Profile doesnt exist");
+				}
+				System.out.println("Profile : ");
+				System.out.println("Id : "+id);
+				break;
+			}
+			case 2:
+			{
+				System.out.print("Enter your new id : ");
+				id = sc.nextInt();
+				System.out.println("Your new id : "+id);
+				System.out.println("Profile Edited");
+				break;
+			}
+			case 3:
+			{
+				id = 0;
+				System.out.println("Profile is deleted");
+				break;
+			}
+			default:
+				System.out.println("Invalid choice");
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>javac as5.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as5
+Enter the signal colour
+Choices:
+R - Red
+Y - Yellow
+G - Green
+R
+Stop
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as5
+Enter the signal colour
+Choices:
+R - Red
+Y - Yellow
+G - Green
+Y
+Caution
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as5
+Enter the signal colour
+Choices:
+R - Red
+Y - Yellow
+G - Green
+G
+Go
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>
+*/

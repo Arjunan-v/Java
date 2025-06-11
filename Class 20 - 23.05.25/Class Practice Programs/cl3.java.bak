@@ -1,0 +1,86 @@
+import java.util.Scanner;
+class cl3
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws Exception
+	{
+		System.out.println("Choices:");
+		System.out.println("1.Food");
+		System.out.println("2.Skill");
+		System.out.print("Select the input:");
+		int a = sc.nextInt();
+
+		switch(a)
+		{
+			case 1:
+			{
+				System.out.println("Choices:");
+				System.out.println("1.Idly");
+				System.out.println("2.Pongal");
+				System.out.print("Select the input:");
+				int f = sc.nextInt();
+				switch(f)
+				{
+					case 1:System.out.println("Idly : 80");
+					break;
+					case 2:System.out.println("Pongal : 70");
+					break;
+				}
+			break;
+			}
+			case 2:
+			{
+				System.out.println("Choices:");
+				System.out.println("1.Java");
+				System.out.println("2.SQL");
+				System.out.print("Select the input:");
+				int g = sc.nextInt();
+				switch(g)
+				{
+					case 1:System.out.println("Tabrez");
+					break;
+					case 2:System.out.println("Nagaraj");
+					break;
+				}
+			break;
+			}
+			default:System.out.println("Invalid");
+			break;
+		}
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>javac cl1.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:1
+Sunday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:2
+Monday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:3
+Tuesday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:4
+Wednesday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:5
+Thursday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:6
+Friday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>java cl1
+Enter Number:7
+Saturday
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Class Practice Programs>
+*/

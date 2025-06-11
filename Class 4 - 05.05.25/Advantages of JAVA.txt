@@ -1,0 +1,35 @@
+Applications :
+
+Java could likewise be a solid broadly useful programming language. it’s utilized to create work areas and portable applications, enormous preparation, implanted frameworks, etc. It is utilized for the following application given below as follows.
+
+Portable applications (uncommonly Android applications).
+Work area application.
+Web applications.
+Web workers and application workers.
+Game Development
+Information base association.
+Big Data Technologies
+Scientific and Research Applications
+Cloud-based Applications
+What’s more, a whole lot more!
+Advantages of JAVA :
+
+Straightforward Java – It is anything but difficult to program, compose, gather, investigate, and learn than elective programming dialects. Java might be a more modest sum convoluted than C++; therefore, Java utilizes programmed memory portion and trash assortment.
+Item Oriented – It grants you to make standard projects and reusable code.
+Stage Independent Java code – It runs on any machine that needn’t bother with any unique programming to be introduced, however, the JVM should be available on the machine.
+Java is a disseminated language – Java is a dispersed language as it gives an instrument for dividing information and projects between numerous PCs that improve the presentation and proficiency of the framework. The RMI(Remote Method Invocation) is something that bolsters the dispersed handling in Java.
+Secure Java – It has no unequivocal pointer. Besides this, it is a security administrator that characterizes the entrance of classes.
+Memory distribution – In Java, memory is part into two sections one is stored and another is stack. At whatever point we pronounce a variable JVM gives memory from one or the other stack or pile space. It assists with remaining the information and reestablish it without any problem.
+Multithreaded – It is the potential for a program to perform numerous assignments simultaneously. at long last time showed up to become familiar with the ideas of Multithreading in Java.
+Java gives Automatic Garbage Collection – There is programmed memory for the executives in Java that is overseen by the Java Virtual Machine(JVM). At whatever point the articles are not utilized by programs any longer and they don’t allude to anything.
+Disadvantages of JAVA :
+
+Execution Java language – It is a more slow language when contrasted with different dialects as it is a memory burning-through language.
+Look and Feel – The default look of GUI applications written in Java utilizing the Swing toolbox is very not quite the same as local applications.
+Memory Management – In Java, Memory is overseen through trash pickup, at whatever point the refuse gatherer runs, it influences the exhibition of the apparatus. This is frequently in light of the fact that all different strings inside the require to be halted to allow the junk authority string to figure.
+Java requires huge memory space – Java requires a critical or significant measure of memory space when contrasted with different dialects like C and C++. During the execution of trash assortment, the memory productivity and the exhibition of the framework might be unfavorably influenced.
+Verbose and Complex codes – Java codes are verbose, implying that there are numerous words in them and there are numerous long and complex sentences that are hard to peruse and comprehend. This can decrease the meaningfulness of the code.
+Slow Startup Time – Java applications can have slower startup times because of the need to initialize the JVM and load necessary classes.
+Poor Support for Low-Level Programming – Java abstracts away hardware-level operations, making it less suitable for system-level programming or applications requiring direct hardware interaction.
+Less Control Over System Resources – Java’s automatic memory management and garbage collection can lead to less precise control over system resources, which can be critical for performance-tuned applications.
+Limited Real-Time Capabilities – Java’s garbage collection process can introduce pauses that make it less suitable for real-time systems where consistent response times are crucial.

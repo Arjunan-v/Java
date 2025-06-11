@@ -1,0 +1,106 @@
+import java.util.Scanner;
+class as4
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the Grade");
+		char c = sc.next().charAt(0);
+		switch(c)
+		{
+			case 'A':
+			{
+				System.out.println("4.0");
+				break;
+			}
+			case 'B':
+			{
+				System.out.println("3.0");
+				break;
+			}
+			case 'C':
+			{
+				System.out.println("2.0");
+				break;
+			}
+			case 'D':
+			{
+				System.out.println("1.0");
+				break;
+			}
+			case 'F':
+			{
+				System.out.println("Fail");
+				break;
+			}
+			default:
+				System.out.println("Invalid choice");
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>javac as2.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as2
+Enter a10
+Enter b20
+Enter the operation:
+Choices:
++
+-
+*
+/
++
+30
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as2
+Enter a10
+Enter b5
+Enter the operation:
+Choices:
++
+-
+*
+/
+-
+5
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as2
+Enter a10
+Enter b5
+Enter the operation:
+Choices:
++
+-
+*
+/
+*
+50
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as2
+Enter a10
+Enter b5
+Enter the operation:
+Choices:
++
+-
+*
+/
+/
+2
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as2
+Enter a10
+Enter b5
+Enter the operation:
+Choices:
++
+-
+*
+/
+&
+Invalid choice
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>
+*/

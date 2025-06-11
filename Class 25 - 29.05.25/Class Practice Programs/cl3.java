@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class cl3
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter number:");
+		int n = sc.nextInt();
+		int s =1;
+		for (int i=2;i<=n ;i++ )
+		{
+			s=s*i;
+		}
+		System.out.println("Factorial :"+s);
+	}
+}
+
+/*
+Output:
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>javac cl3.java
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl3
+Enter number:5
+Factorial :120
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl3
+Enter number:6
+Factorial :720
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>
+*/

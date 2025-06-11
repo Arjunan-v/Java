@@ -1,0 +1,21 @@
+class Esc1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("\"Escape Sequence Character Assignment 1\"");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\07.05.25 - Class 6>javac Demo3.java
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6>java Demo3
+                "Java"
+Java "Script"
+*
+**
+***
+****
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6>
+*/

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class cp1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter Number: ");
+		int num = sc.nextInt();
+
+		//String res = (num>=0)?((num>0)?"Positive":"Zero"):((num<0)?"Negative":"Zero");
+		//Above code - my code also works.
+		String res = (num == 0)? "Zero" : ((num>0)? "Positive":"Negative");
+		System.out.println("Result : "+res);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>javac cp1.java
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: 0
+Result : Zero
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: 4
+Result : Positive
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: -9
+Result : Negative
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>
+*/

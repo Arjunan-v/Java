@@ -1,0 +1,23 @@
+class Demo3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("\t\tJava");
+		System.out.println("Java \"Script\"");
+		System.out.println("*\n**\n***\n****");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\07.05.25 - Class 6>javac Demo3.java
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6>java Demo3
+                Java
+Java "Script"
+*
+**
+***
+****
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6>
+*/

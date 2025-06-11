@@ -1,0 +1,26 @@
+class as2
+{
+	public static void main(String[] args) 
+	{
+		String bcompany = "Royal Enfield";
+		String bmodel = "Himalayan";
+		double bprice = 200000;
+		String bcolour = "Black";
+		System.out.println("Bike Company: "+bcompany);
+		System.out.println("Bike Model: "+bmodel);
+		System.out.println("Bike Price :"+bprice);
+		System.out.println("Bike Colour : "+bcolour);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>javac as1.java
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>java as1
+Laptop Brand: ASUS
+Laptop Model: Vivobook
+laptop Price :60000.0
+Laptop Colour : Black
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>
+*/

@@ -1,0 +1,26 @@
+class as4
+{
+	public static void main(String[] args) 
+	{
+		String fname = "Aravinth";
+		String fgender = "male";
+		byte fage = 27;
+		long fcontact = 9876543210L;;
+		System.out.println("Best Friend Name: "+fname);
+		System.out.println("Best Friend Gender: "+fgender);
+		System.out.println("Best Friend Age: "+fage);
+		System.out.println("Best Friend Contact: "+fcontact);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>javac as3.java
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>java as3
+Car Company: Voklswagen
+Car Model: Polo
+Car Price :800000.0
+Car Colour : White
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>
+*/

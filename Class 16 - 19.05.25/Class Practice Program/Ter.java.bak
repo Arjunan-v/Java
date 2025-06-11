@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Ter
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter Student Id: ");
+		int id = sc.nextInt();
+		System.out.println("Student Id : "+id);
+		
+		String res = (id>0) ? "Positive Number" : "Negative Number";
+		System.out.println("Result : "+res);
+
+
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>javac Stu.java
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>Java Stu
+Enter Student Id: 78
+Enter Marks: 85
+Enter Contact :9840618844
+Enter Percentage: 90
+Enter first letter of your name: V
+Student Id : 78
+Marks : 85
+Contact : 9840618844
+Percentage : 90.0
+First Letter : V
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>
+*/

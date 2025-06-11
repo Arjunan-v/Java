@@ -1,0 +1,16 @@
+class as2
+{
+	static int x = 100;
+	static int y = 200;
+	public static void main(String[] args) 
+	{
+		System.out.println(x+y);
+	}
+}
+/*
+output:
+D:\QSPIDER\JAVA\10.05.25 - Class 9\Assignment>javac as2.java
+
+D:\QSPIDER\JAVA\10.05.25 - Class 9\Assignment>java as2
+300
+*/

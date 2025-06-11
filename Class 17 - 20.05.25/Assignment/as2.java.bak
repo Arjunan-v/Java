@@ -1,0 +1,42 @@
+import java.util.Scanner;
+class as2
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter percentage: ");
+		int a = sc.nextInt();
+
+		String res = (a>100 || a<0)?"Invalid":(a>=90)?"A Grade":(a>=60)?"B Grade":(a>=35)?"C Grade":(a<35)?"Fail":"Invalid";
+		System.out.println("Result : "+res);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>javac as1.java
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>java as1
+Enter Number: a
+Result : Lowercase
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>javac as1.java
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>java as1
+Enter value: A
+Result : Uppercase
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>java as1
+Enter value: v
+Result : Lowercase
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>java as1
+Enter value: 3
+Result : Integer
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>java as1
+Enter value: !
+Result : Special Characters
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Assignment>
+*/

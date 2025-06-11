@@ -1,0 +1,21 @@
+class Esc6
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("\"This one with double quotes\"");
+		System.out.println("This one with\ttab space");
+		System.out.println("This one with\nnext line");
+		System.out.println("This one deletes the letter\b before : r should be missing in letter");
+		System.out.println("This one returns and replaces the text at the first : \rHello");
+		System.out.println("This is a form feed back text : \f After the form character");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\07.05.25 - Class 6\Assignments>javac Esc5.java
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6\Assignments>java Esc5
+Assignment 5:    "Escape Sequence Characters with double quotes and tab space"
+
+D:\QSPIDER\JAVA\07.05.25 - Class 6\Assignments>
+*/

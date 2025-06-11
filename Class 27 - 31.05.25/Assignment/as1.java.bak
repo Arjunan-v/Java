@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class as1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter start number:");
+		int start = sc.nextInt();
+		System.out.print("Enter end number:");
+		int end = sc.nextInt();
+		for (int i=start;i<=end;i++)
+		{
+			if (i<=1)
+			{
+				continue;
+			}
+			boolean flag=true;
+			for (int j=2;j<=i/2 ;j++ )
+			{
+				if (i%j==0)
+				{
+					flag = false;
+					break;
+				}
+			}
+			if (flag)
+			{
+				System.out.print(i+" ");
+			}
+		}
+	}
+	
+}
+/*
+Output:
+D:\QSPIDER\JAVA\31.05.25 - Class 27\Class Practice Programs>javac cl4.java
+
+D:\QSPIDER\JAVA\31.05.25 - Class 27\Class Practice Programs>java cl4
+Enter number:42567
+3
+
+D:\QSPIDER\JAVA\31.05.25 - Class 27\Class Practice Programs>
+*/

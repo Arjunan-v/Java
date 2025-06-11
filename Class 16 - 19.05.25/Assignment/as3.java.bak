@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class as3
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter Year: ");
+		int year = sc.nextInt();
+
+		System.out.println("Year is "+year);
+
+		String res = (year % 4 == 0) ? "It is a leap year" : "It is not a leap year";
+		System.out.println("Result : "+res);
+
+
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Assignment>javac as2.java
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Assignment>java as2
+Enter Number 1: 5
+Enter Number 2: 7
+Number 1 : 5
+Number 2 : 7
+Result : Number 2 is greater than Number 1
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Assignment>java as2
+Enter Number 1: 9
+Enter Number 2: 5
+Number 1 : 9
+Number 2 : 5
+Result : Number 1 is Greater than Number 2
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Assignment>
+*/

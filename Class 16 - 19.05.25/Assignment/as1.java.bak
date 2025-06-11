@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class as1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter Number: ");
+		int num = sc.nextInt();
+		System.out.println("Number : "+num);
+		
+		String res = (num%2==0) ? "Even Number" : "Odd Number";
+		System.out.println("Result : "+res);
+
+
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>javac Ter.java
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>java Ter
+Enter Student Id: 78
+Student Id : 78
+Result : Positive Number
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>java Ter
+Enter Student Id: -78
+Student Id : -78
+Result : Negative Number
+
+D:\QSPIDER\JAVA\18.05.25 - Class 16\Class Practice Program>
+*/

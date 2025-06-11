@@ -1,0 +1,54 @@
+import java.util.Scanner;
+class cl1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter number:");
+		int n = sc.nextInt();
+		while (n!=4 && n!=1)
+		{
+			int sum=0,p=0,l;
+			while (n>0)
+			{
+				l=n%10;
+				p=l*l;
+				//System.out.println("Sq:"+p);
+				sum=sum+p;
+				n=n/10;
+				//System.out.println("Sum:"+sum);
+			}
+			n=sum;
+		}
+		if (n==1)
+		{
+			System.out.println("Happy");
+		}
+		else
+		{
+			System.out.println("Not Happy");
+		}	
+	}	
+}
+/*
+Output:
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl4
+Enter number:1234
+Sum of last 2 digits:5
+Sum of insidde digits:5
+Xylum
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl4
+Enter number:24136
+Sum of last 2 digits:8
+Sum of insidde digits:8
+Xylum
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl4
+Enter number:123456
+Sum of last 2 digits:7
+Sum of insidde digits:14
+Not Xylum
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>
+*/

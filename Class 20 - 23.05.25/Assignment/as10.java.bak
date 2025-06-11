@@ -1,0 +1,49 @@
+import java.util.Scanner;
+class as10
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("How many months are there in a year?\n1.12months\n2.11months\n3.10months\n4.None of the above");
+		System.out.print("Choose your answer:");
+		int a = sc.nextInt();
+		switch(a)
+		{
+			case 1:
+			{
+				System.out.println("Answer is correct!");
+				break;
+			}
+			case 2,3,4:
+			{
+				System.out.println("Wrong Answer!");
+				break;
+			}
+			default:
+				System.out.println("Invalid choice");
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>javac as9.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as9
+Enter the month number:1
+Winter
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as9
+Enter the month number:4
+Summer
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as9
+Enter the month number:8
+Monsoon
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as9
+Enter the month number:10
+Post-Monsoon
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>
+
+*/

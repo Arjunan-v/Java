@@ -1,0 +1,27 @@
+class as1
+{
+	public static void main(String[] args) 
+	{
+		String lbrand = "ASUS";
+		String lmodel = "Vivobook";
+		double lprice = 60000;
+		String lcolour = "Black";
+		System.out.println("Laptop Brand: "+lbrand);
+		System.out.println("Laptop Model: "+lmodel);
+		System.out.println("laptop Price :"+lprice);
+		System.out.println("Laptop Colour : "+lcolour);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Class Practice Program>javac employee.java
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Class Practice Program>java Employee
+Employee id: 78
+Employee name: Venkatesh
+Employee salary :600000
+Employee contact : 9840618844
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Class Practice Program>
+
+*/

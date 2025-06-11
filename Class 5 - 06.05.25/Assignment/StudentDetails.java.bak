@@ -1,0 +1,21 @@
+class StudentDetails
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Student Name : Arjunan");
+		System.out.println("Student ID : 078");
+		System.out.println("Student Marks : 8.5/10.0");
+		System.out.println("Student Contact : 9840618844");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA>javac Car.java
+
+D:\QSPIDER\JAVA>java Car
+Car Name : Volkswagen Polo TDI
+Car Price : Rs.8,52,000
+Car Colour : White
+
+D:\QSPIDER\JAVA>
+*/

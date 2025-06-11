@@ -1,0 +1,71 @@
+import java.util.Scanner;
+class as9
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter the month number:");
+		int a = sc.nextInt();
+		switch(a)
+		{
+			case 12,1,2:
+			{
+				System.out.println("Winter");
+				break;
+			}
+			case 3,4,5:
+			{
+				System.out.println("Summer");
+				break;
+			}
+			case 6,7,8,9:
+			{
+				System.out.println("Monsoon");
+				break;
+			}
+			case 10,11:
+			{
+				System.out.println("Post-Monsoon");
+				break;
+			}
+			default:
+				System.out.println("Invalid choice");
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>javac as8.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as8
+Enter your animal:Enter your option:
+Choices:
+1 - Dog
+2 - Cat
+3 - Cow
+
+1
+Dogs Bark
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as8
+Enter your animal:Enter your option:
+Choices:
+1 - Dog
+2 - Cat
+3 - Cow
+
+2
+Cat meows
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as8
+Enter your animal:Enter your option:
+Choices:
+1 - Dog
+2 - Cat
+3 - Cow
+
+3
+Cow moos
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>
+*/

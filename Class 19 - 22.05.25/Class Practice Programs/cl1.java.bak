@@ -1,0 +1,49 @@
+import java.util.Scanner;
+class cl1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("1.JAVA\n2.SQL\n3.WEBTECH");
+		System.out.print("Choose the subject:");
+		int num = sc.nextInt();
+		if (num == 1)
+		{
+			System.out.println("Tabrez");
+		}
+		else if (num == 2)
+		{
+			System.out.println("Nagaraj");
+		}
+		else if (num == 3)
+		{
+			System.out.println("Pranav");
+		}
+		else
+			System.out.println("Invalid Selection");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\21.05.25 - Class 18\Class Practice Programs>javac cl3.java
+
+D:\QSPIDER\JAVA\21.05.25 - Class 18\Class Practice Programs>java cl3
+Starts
+Enter Number3
+Fizz
+Ends
+
+D:\QSPIDER\JAVA\21.05.25 - Class 18\Class Practice Programs>java cl3
+Starts
+Enter Number5
+Buzz
+Ends
+
+D:\QSPIDER\JAVA\21.05.25 - Class 18\Class Practice Programs>java cl3
+Starts
+Enter Number15
+FizzBuzz
+Ends
+
+D:\QSPIDER\JAVA\21.05.25 - Class 18\Class Practice Programs>
+*/

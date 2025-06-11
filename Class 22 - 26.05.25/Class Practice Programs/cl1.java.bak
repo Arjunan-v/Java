@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class cl1 
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		int i = 1;
+		System.out.print("Enter n:");
+		int n = sc.nextInt();
+		while (i<=n)
+		{
+			if (i%2 == 0)
+			{
+				System.out.println(i);
+			}
+			++i;
+		}
+	}
+}

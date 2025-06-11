@@ -1,0 +1,62 @@
+import java.util.Scanner;
+class cl2
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter number:");
+		int n = sc.nextInt();
+		boolean flag=true;
+		if (n==0 || n==1)
+		{
+			System.out.println("Neither Prime nor Composite");
+		}
+		else
+		{
+			for (int i=2;i<n;i++)
+			{
+				if (n%i == 0)
+				{
+					flag = false;
+					break;
+				}
+			}
+			if (flag == true)
+			{
+				System.out.println("Prime Number");
+			}
+			else if (flag == false)
+			{
+				System.out.println("Composite Number");
+			}
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:0
+Neither Prime nor Composite
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:1
+Neither Prime nor Composite
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:2
+Prime Number
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:5
+Prime Number
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:7
+Prime Number
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>java cl2
+Enter number:8
+Composite Number
+
+D:\QSPIDER\JAVA\29.05.25 - Class 25\Class Practice Programs>
+*/

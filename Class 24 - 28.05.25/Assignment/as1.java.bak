@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class as1
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter number:");
+		int n = sc.nextInt();
+		for (int i=1;i<=10 ;i++ )
+		{
+			System.out.println(n+"*"+i+"="+(n*i));			
+		}
+	}
+}
+/*
+Output:
+
+WAJP To read start and end and print Fizz if the number is divisible by 3, print Buzz if the number is divisible by 5 and print FizzBuzz if the number is divisible by 3 and 5.
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>javac cl5.java
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>java cl5
+Enter starting range:10
+Enter ending range:20
+Buzz
+Fizz
+FizzBuzz
+Fizz
+Buzz
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>
+*/

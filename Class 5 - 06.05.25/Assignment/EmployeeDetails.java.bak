@@ -1,0 +1,22 @@
+class EmployeeDetails
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Employee Name : Venkatesh");
+		System.out.println("Employee ID : 40078");
+		System.out.println("Employee Salary : 6Lakh Per Annum");
+		System.out.println("Employee Experience : 2 years");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA>javac StudentDetails.java
+
+D:\QSPIDER\JAVA>java StudentDetails
+Student Name : Arjunan
+Student ID : 078
+Student Marks : 8.5/10.0
+Student Contact : 9840618844
+
+D:\QSPIDER\JAVA>
+*/

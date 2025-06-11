@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class as1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+
+		System.out.print("Enter value: ");
+		char a = sc.next().charAt(0);
+
+		String res = (a>='A' && a<='Z')?"Uppercase":(a>='a' && a<='z')?"Lowercase":(a>='0' && a<='9')?"Integer":"Special Characters";
+		System.out.println("Result : "+res);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>javac cp1.java
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: 0
+Result : Zero
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: 4
+Result : Positive
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>java cp1
+Enter Number: -9
+Result : Negative
+
+D:\QSPIDER\JAVA\20.05.25 - Class 17\Class Practice Programs>
+*/

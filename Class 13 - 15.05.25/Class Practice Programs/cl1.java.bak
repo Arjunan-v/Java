@@ -1,0 +1,27 @@
+class cl1
+{
+	public static void main(String[] args) 
+	{
+		String name = "Ramesh";
+		int balance = 10000;
+		int withdraw = 5000;
+		System.out.println("Name: "+name);
+		System.out.println("Account Balance: "+balance);
+		System.out.println("Withdrawal Amount: "+withdraw);
+		balance = balance - withdraw;
+		System.out.println("Account Balance after withdraw: "+balance);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\15.05.25 - CLass 13\Class Practice Programs>javac cl1.java
+
+D:\QSPIDER\JAVA\15.05.25 - CLass 13\Class Practice Programs>java cl1
+Name: Ramesh
+Account Balance: 10000
+Withdraw Amountal: 5000
+Account Balance after withdraw: 5000
+
+D:\QSPIDER\JAVA\15.05.25 - CLass 13\Class Practice Programs>
+
+*/

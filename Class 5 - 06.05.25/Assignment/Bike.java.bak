@@ -1,0 +1,17 @@
+class Bike
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Bike Name : Royal Enfield Himalayan 450");
+		System.out.println("Bike Price : Rs.2,85,000");
+		System.out.println("Bike Colour : Black");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA>javac Laptop.java
+
+D:\QSPIDER\JAVA>java Laptop
+Laptop Name : "Mi"
+Laptop Price : "25000"
+*/

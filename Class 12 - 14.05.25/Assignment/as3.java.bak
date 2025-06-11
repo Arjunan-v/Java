@@ -1,0 +1,26 @@
+class as3
+{
+	public static void main(String[] args) 
+	{
+		String ccompany = "Voklswagen";
+		String cmodel = "Polo";
+		double cprice = 800000;
+		String ccolour = "White";
+		System.out.println("Car Company: "+ccompany);
+		System.out.println("Car Model: "+cmodel);
+		System.out.println("Car Price :"+cprice);
+		System.out.println("Car Colour : "+ccolour);
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>javac as2.java
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>java as2
+Bike Company: Royal Enfield
+Bike Model: Himalayan
+Bike Price :200000.0
+Bike Colour : Black
+
+D:\QSPIDER\JAVA\14.05.25 - Class 12\Assignment>
+*/

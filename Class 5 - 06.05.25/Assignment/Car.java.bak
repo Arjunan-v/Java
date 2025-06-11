@@ -1,0 +1,20 @@
+class Car
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Car Name : Volkswagen Polo TDI");
+		System.out.println("Car Price : Rs.8,52,000");
+		System.out.println("Car Colour : White");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA>javac Bike.java
+
+D:\QSPIDER\JAVA>java Bike
+Bike Name : Royal Enfield Himalayan 450
+Bike Price : Rs.2,85,000
+Bike Colour : Black
+
+D:\QSPIDER\JAVA>
+*/

@@ -1,0 +1,8 @@
+class ShakthiMan
+{
+	/* No main method*/
+
+}
+/*
+CTS but RTE coz no main method.
+*/

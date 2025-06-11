@@ -1,0 +1,744 @@
+import java.util.*;
+class cl1
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to Swiggy");
+		System.out.println("Select the hotel:\n1.Buhari\n2.A2B\n3.Amma Canteen");
+		System.out.print("Choose the hotel:");
+		int a = sc.nextInt();
+		switch(a)
+		{
+			case 1:
+			{
+				System.out.println("Welcome to Buhari\nMenu:");
+				System.out.println("1:Mutton Briyani - 480Rs\n2.Chicken Briyani - 380Rs\n3.Prawn Briyani - 450Rs");
+				System.out.print("Choose the food:");
+				int b = sc.nextInt();
+				switch(b)
+				{
+					case 1:
+					{
+						double per_plate = 480;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 2:
+					{
+						double per_plate = 380;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 3:
+					{
+						double per_plate = 450;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					default:
+					{
+						System.out.println("Invalid Choice.");
+						break;
+					}
+					
+				}
+				break;
+			}
+			case 2:
+			{
+				System.out.println("Welcome to A2B\nMenu:");
+				System.out.println("1:Mushroom Briyani - 250Rs\n2.Paneer Briyani - 300Rs\n3.Gobi Briyani - 200Rs");
+				System.out.print("Choose the food:");
+				int b = sc.nextInt();
+				switch(b)
+				{
+					case 1:
+					{
+						double per_plate = 250;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 2:
+					{
+						double per_plate = 300;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 3:
+					{
+						double per_plate = 200;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					default:
+					{
+						System.out.println("Invalid Choice.");
+						break;
+					}
+					
+				}
+				break;
+			}
+			case 3:
+			{
+				System.out.println("Welcome to Amma Canteen\nMenu:");
+				System.out.println("1:Dosa - 30Rs\n2.Idly - 20Rs\n3.Pongal - 25Rs");
+				System.out.print("Choose the food:");
+				int b = sc.nextInt();
+				switch(b)
+				{
+					case 1:
+					{
+						double per_plate = 30;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 2:
+					{
+						double per_plate = 20;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					case 3:
+					{
+						double per_plate = 25;
+						System.out.println("Enter the quantity:");
+						int c = sc.nextInt();
+						double bill = c *per_plate;
+						System.out.println("Total Bill : "+bill);
+						System.out.println("Press any key to confirm.\nPress N to cancel the order.");
+						char con = sc.next().charAt(0);
+						if (con == 'N')
+						{
+							System.out.println("Order Cancelled.");
+							break;
+						}
+						else
+						{
+							System.out.println("Payment options:\n1.GPAY\n2.Phonepay.\nSelect the payment mode");
+							// To generate otp : math.random()*9999+9999
+							int pay = sc.nextInt();
+							if (pay == 1)
+							{
+								System.out.println("GPAY:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else if(pay == 2)
+							{
+								System.out.println("Phonepay:");
+								System.out.print("Enter the bill amount:");
+								double bill_con = sc.nextDouble();
+								if (bill == bill_con)
+								{
+									int otp = (int)(Math.random()*9999+9999);//otp
+									System.out.println("OTP Generated: "+otp);
+									System.out.print("Enter OTP:");
+									int otp_user = sc.nextInt();
+									if (otp == otp_user)
+									{
+										System.out.println("Order Confirmed");
+									}
+									else
+									{
+										System.out.println("OTP Wrong\nOrder Failed.");
+									}
+								}
+							}
+							else
+							{
+								System.out.println("Invalid Payment Option");
+							}
+
+						}
+						break;
+					}
+					default:
+					{
+						System.out.println("Invalid Choice.");
+						break;
+					}
+					
+				}
+				break;
+			}
+			default:
+			{
+				System.out.println("Invalid");
+				break;
+			}
+		
+		}
+				
+		System.out.println("Swiggy Application Exited");
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>javac as11.java
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as11
+Banking Operations
+1.Deposit
+2.Withdraw
+3.Check Balance
+4.Exit
+Choose your answer:3
+Balance : 10000.0
+Exited
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as11
+Banking Operations
+1.Deposit
+2.Withdraw
+3.Check Balance
+4.Exit
+Choose your answer:1
+Enter the amount to deposit:5000
+Amount Deposited
+New Balance : 15000.0
+Exited
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as11
+Banking Operations
+1.Deposit
+2.Withdraw
+3.Check Balance
+4.Exit
+Choose your answer:2
+Enter the amount to withdraw:5000
+Amount Withdrawn
+New Balance : 5000.0
+Exited
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>java as11
+Banking Operations
+1.Deposit
+2.Withdraw
+3.Check Balance
+4.Exit
+Choose your answer:4
+Exited
+
+D:\QSPIDER\JAVA\23.05.25 - Class 20\Assignment>
+*/

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class cl3
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter n:");
+		int n = sc.nextInt();
+		for (int i=n;i>0 ;i-- )
+		{
+			System.out.println(i);
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>javac cl2.java
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>java cl2
+Enter n:5
+1
+2
+3
+4
+5
+
+D:\QSPIDER\JAVA\28.05.25 - Class 24\Class Practice Programs>
+*/

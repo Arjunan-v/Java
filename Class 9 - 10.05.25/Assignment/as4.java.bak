@@ -1,0 +1,16 @@
+class as4
+{
+	static float a;
+	public static void main(String[] args) 
+	{
+		a = 3.14f;
+		System.out.print(a);
+	}
+}
+/*
+output:
+D:\QSPIDER\JAVA\10.05.25 - Class 9\Assignment>javac as3.java
+
+D:\QSPIDER\JAVA\10.05.25 - Class 9\Assignment>java as3
+ABC
+*/

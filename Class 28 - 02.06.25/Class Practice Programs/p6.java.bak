@@ -1,0 +1,38 @@
+class p6
+{
+	public static void main(String[] args) throws Exception
+	{
+		int n=11;
+		for (int i=0;i<n ;i++ )
+		{
+			for (int j=0;j<n ;j++ )
+			{
+				if (i==0 || i==n-1 || j==0 || j==n-1 || j==n/2 || i==n/2 || i==j || i+j==n-1)
+				{
+					System.out.print("* ");
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+				//Thread.sleep(1000);
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+/*
+Output:
+D:\QSPIDER\JAVA\01.06.25 - Class 28\Class Practice Programs>javac p4.java
+
+D:\QSPIDER\JAVA\01.06.25 - Class 28\Class Practice Programs>java p4
+$ $ $ $ $
+$ $ $ $ $
+$ $ $ $ $
+$ $ $ $ $
+$ $ $ $ $
+
+D:\QSPIDER\JAVA\01.06.25 - Class 28\Class Practice Programs>
+*/

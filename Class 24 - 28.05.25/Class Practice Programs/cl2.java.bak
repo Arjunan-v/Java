@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class cl2
+{
+	static Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter n:");
+		int n = sc.nextInt();
+		for (int i=1;i<=n ;i++ )
+		{
+			System.out.println(i);
+		}
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\27.05.25 - Class 23\Class Practice Programs>javac cl2.java
+
+D:\QSPIDER\JAVA\27.05.25 - Class 23\Class Practice Programs>java cl2
+Select Hotel:
+1.Buhari
+2.A2B
+3.Exit
+1
+Welcome to Buhari!
+Select Hotel:
+1.Buhari
+2.A2B
+3.Exit
+2
+Welcome to A2B!
+Select Hotel:
+1.Buhari
+2.A2B
+3.Exit
+3
+Thanks!
+
+D:\QSPIDER\JAVA\27.05.25 - Class 23\Class Practice Programs>
+*/

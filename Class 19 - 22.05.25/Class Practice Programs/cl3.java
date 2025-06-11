@@ -1,0 +1,49 @@
+import java.util.Scanner;
+class cl3
+{
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) throws Exception
+	{
+		System.out.print("Enter Character:");
+		char a = sc.next().charAt(0);
+		if (a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U' || a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u')
+		{
+			System.out.println("Character is vowel");
+		}
+		else if (a >= 'A' && a <= 'Z' || a >= 'a' && a <= 'z')
+		{
+			System.out.println("Character is a consanant");
+		}
+		else if (a >= '0' && a <= '9')
+		{
+			System.out.println("Character is an integer");
+		}
+		else
+		{
+			System.out.println("Special Characters");
+		}
+
+	}
+}
+/*
+Output:
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>javac cl3.java
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl3
+Enter Character:a
+Character is vowel
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl3
+Enter Character:E
+Character is vowel
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl3
+Enter Character:R
+Character is a consanant
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>java cl3
+Enter Character:!
+Special Characters
+
+D:\QSPIDER\JAVA\22.05.25 - Class 19\Class Practice Programs>
+*/

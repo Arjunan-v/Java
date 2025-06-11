@@ -1,0 +1,12 @@
+class glo1 
+{
+	static int a = 78;
+	static String name = "Venkatesh";
+	static String degree = "BTECH";
+	public static void main(String[] args) 
+	{
+		System.out.println(a);
+		System.out.println(name);
+		System.out.println(degree);
+	}
+}

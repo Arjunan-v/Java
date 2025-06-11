@@ -1,0 +1,19 @@
+Microsoft Windows [Version 10.0.22631.5189]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\QSPIDER\JAVA>javac Venkatesh.java
+
+D:\QSPIDER\JAVA>java Venkatesh
+Venkatesh
+
+D:\QSPIDER\JAVA>javac FamilyName.java
+
+D:\QSPIDER\JAVA>javac FamilyName.java
+
+D:\QSPIDER\JAVA>java FamilyName
+Family Member:
+Father Name: Balagopi
+Mother Name: Jayarani
+Brother Name: Vishnuvardhan
+
+D:\QSPIDER\JAVA>

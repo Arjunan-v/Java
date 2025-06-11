@@ -1,0 +1,15 @@
+While:
+1.Condition is checked first then statement(s) is executed.
+2.It might occur statement(s) is executed zero times, If condition is false.
+3.No semicolon at the end of while. while(condition)
+4.Variable in condition is initialized before the execution of loop.
+5.while loop is entry controlled loop.
+6.while(condition) { Task; }
+
+Do-While:
+1.Statement(s) is executed atleast once, thereafter condition is checked.
+2.At least once the statement(s) is executed.
+3.Semicolon at the end of while. while(condition);
+4.variable may be initialized before or within the loop.
+5.do-while loop is exit controlled loop.
+6.do { statement(s); } while(condition);
